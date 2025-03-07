@@ -28,6 +28,10 @@ const onClickSignup = async () => {
   console.log("ALL USERS", USERS);
   if (newUser) {
     const contenContainerDiv = document.getElementById("contentContainer");
+    USERS.map(
+      (u) =>
+        `<div class="welcomeText">Hallo, Willkommen auf unserer legendären Wesbite, ${u.username}</div>`
+    );
     contenContainerDiv.innerHTML = `<div class="welcomeText">Hallo, Willkommen auf unserer legendären Wesbite, ${newUser.username}</div>`;
   } else {
     alert("Something went wrong!");

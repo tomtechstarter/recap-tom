@@ -4,3 +4,5 @@ const fetchGitWorkflowImage = async () => {
   // Image in den gitDocuContainer einfüge (TIPP: .innerHTML)
   // Das Image sol einen vordefinierten Style hinterlegt
 };
+
+fetchGitWorkflowImage();
